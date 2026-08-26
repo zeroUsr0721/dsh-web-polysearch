@@ -1,0 +1,5 @@
+# dsh-web-polysearch bundle patch: registers one plugin row that owns
+# the dsh-web-polysearch tool, its search backends, and its settings UI.
+- insert:
+    - id: dsh-web-polysearch
+      name: 'dsh-web-polysearch'
